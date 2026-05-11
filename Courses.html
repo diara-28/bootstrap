@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            /* overflow-x: hidden; */
+        }
+        body{
+          background-color:  rgb(236, 253, 189);
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            background: linear-gradient(90deg, #183114 0.75%, #446129 100%);
+        }
+        .v{
+            display: flex;
+            gap: 60px;
+            width: 1300px;
+        }
+        .con{
+          display: flex;
+          justify-content: space-between
+        }
+        .subscribe-one{
+          display: flex;
+          gap: 60px;
+          flex-wrap: wrap;
+          background:  linear-gradient(90deg, #183114 0.75%, #446129 100%);
+          padding: 100px;
+        }
+        .subscribe-one > div{
+    flex: 1;
+    min-width: 250px;
+}
+        .subscribe{
+          padding: 80px;
+          background-color: rgb(236, 253, 189);
+        }
+         .b{
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid yellow;
+            border-radius: 40px;
+            width: 400px;
+        } 
+        .u{
+            border-radius: 40px;
+            padding: 10px;
+            background: linear-gradient(90deg, #183114 0.75%, #446129 100%);
+
+            border: none;  
+        }
+        .u2{
+            border-radius: 40px;
+            padding: 10px;
+            border: none;
+        }
+        .footer{
+          padding-left: 80px;
+          background: linear-gradient(90deg, #183114 0.75%, #446129 100%);
+        }
+        .footer1{
+          display: flex;
+          justify-content: space-between;
+          gap: 150px;
+        }
+        .icons{
+          display: flex;
+          align-items: center;
+          margin-left: 400px;
+        }
+        .o{
+          display: flex;
+          justify-content: space-evenly;
+        }
+        @media(max-width: 992px){
+
+  .v{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .subscribe{
+    padding: 20px;
+  }
+
+  .subscribe-one{
+    padding: 30px;
+  }
+
+  .subscribe-one img{
+    width: 180px;
+  }
+
+  .b{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .u,
+  .u2{
+    width: 100%;
+  }
+      .b{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .u{
+        width: 100%;
+    }
+
+    .u2{
+        width: 100%;
+    }
+
+}
+
+    </style>
+
+
+
+    <!-- navigation bar -->
+ <section class="nav-bar">
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid pt-2">
+    <a class="navbar-brand text-warning" href="#">Dive Into Skills</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+        <li class="nav-item">
+          <a class="nav-link active text-warning" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white link-warning" aria-current="page" href="Blog.html">Blog</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white link-warning" aria-current="page" href="Courses.html">Courses</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white link-warning" aria-current="page" href="About.html">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white link-warning" aria-current="page" href="Contact.html">Contact</a>
+        </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+ </section>
+<!-- latestblogs -->
+ <section>
+    <div class="head text-center p-4">
+        <h1>Latest Blogs</h1>
+    </div>
+ </section>
+
+ <section>
+    <div class="v">
+        <div>
+            <p>Catagories</p>
+            <p>Catagory 1</p>
+            <p>Catagory 1</p>
+            <p>Catagory 1</p>
+            <p>Catagory 1</p>
+            <p>Catagory 1</p>
+        </div>
+        <div>
+              <section class="container-flu">
+    <div class="row g-4">
+      <div class="col-sm-3">
+        <div class="card border border-2 rounded-5 shadow" width="100px">
+    <!-- <div class="col-sm-3"> -->
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div class="card-body">
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</P>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div class="card-body">
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div class="card-body">
+        <h6>Title goes here Title goes here Title goes here Title goes here</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div class="card-body">
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+        <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+    </div><br><br>
+  </section>
+   <section class="container-flu">
+    <div class="row g-4">
+      <div class="col-sm-3">
+        <div class="card border border-2 rounded-5 shadow">
+    <!-- <div class="col-sm-3"> -->
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div>
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</P>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div card-body>
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div card-body>
+        <h6>Title goes here Title goes here Title goes here Title goes here</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div card-body>
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+        <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+    </div> <br><br>
+</section>
+ <section class="container-flu">
+    <div class="row g-4">
+      <div class="col-sm-3">
+        <div class="card border border-2 rounded-5 shadow" width="100px">
+    <!-- <div class="col-sm-3"> -->
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div>
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</P>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div card-body>
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div card-body>
+        <h6>Title goes here Title goes here Title goes here Title goes here </h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border border-2 rounded-5 shadow">
+      <img src="images/Rectangle 15.png" alt="" class="rounded-top-5">
+      <div card-body>
+        <h6>Title goes here Title goes here Title goes here Title goes here</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tortor sit amet condimentum porttitor. Integer augue urna, volutpat in sapien a, convallis commodo quam.</p>
+         <div class="con">
+          <div>
+          <p>24/04/2022</p>
+        </div>
+        <div>
+          By: Ahmad Raza
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+        </div>
+        <div class="i text-center mt-5">
+      <button type="button" class="btn btn-success text-warning   px-5 py-3 fs-3"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Load More
+</button>
+    </div>
+    </div>
+ </section>
+
+ <!-- subscribtion -->
+     <section class="subscribe">
+      <div class="subscribe-one rounded-5">
+        <div>
+          <img src="images/Email icon 1.png" width="300px" alt="">
+        </div>
+        <div>
+          <h4 class="y text-warning">Subscribe to our Newsletter</h4><br>
+          <p class="z text-light">Master web Development with amazing resources that are available for free! Join our Newsletter and get alert when new articles, topics, or courses are published.</p><br><br>
+          <div class="b">
+        <div class="">
+            <button class="u text-warning">Email Address</button>
+        </div>
+        <div class="">
+            <button class="u2 bg-warning px-5">Subscribe</button>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+     </section>
+
+      <!-- footer -->
+
+      <footer class="footer">
+        <div class="footer1">
+          <div class="footer2"><br><br>
+            <h1 class="r text-warning">Dive Into Skills</h1><br>
+            <p class="x text-light">The latest articles and courses to help you upgrade your skills and learn the latest trends. Master web Development with these amazing resources that are available for free!</p>
+          </div>
+          <div class="footer2 text-light"><br><br>
+            <p>Home</p>
+            <p>Blogs</p>
+            <p>Courses</p>
+            <p>YouTube</p>
+          </div>
+          <div class="footer2 text-light"><br><br>
+            <p>About</p>
+            <p>Contact</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+          </div>
+        </div>
+        <div class="icons">
+          <div>
+            <img src="images/akar-icons_facebook-fill.png" width="50px" alt="">
+          </div>
+          <div>
+            <img src="images/akar-icons_instagram-fill.png" width="50px" alt="">
+          </div>
+          <div>
+            <img src="images/akar-icons_twitter-fill.png" width="50px" alt="">
+          </div>
+          <div>
+            <img src="images/akar-icons_linkedin-box-fill.png" width="50px" alt="">
+          </div>
+          <div>
+            <img src="images/akar-icons_youtube-fill.png" width="50px" alt="">
+          </div>
+          <div>
+            <img src="images/akar-icons_slack-fill.png" width="50px" alt="">
+          </div>
+          <div>
+            <img src="images/akar-icons_discord-fill.png" width="50px" alt="">
+          </div>
+        </div><br><br><br>
+        <div class="o">
+          <div>
+            <p class="o text-light">COPYRIGHT @ 2022 Dive Into Skills</p>
+          </div>
+          <div>
+            <p class="o text-light">Developed by: Ahmad Raza</p>
+          </div>
+        </div>
+      </footer>
+    
+
+<!-- cdn script link -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
